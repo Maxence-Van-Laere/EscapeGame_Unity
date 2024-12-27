@@ -6,7 +6,7 @@ public class Player_Inventory : MonoBehaviour
 {
     public string[] inventory = new string[10];
     private int nbrItems = 0;
-    private GameObject itemDrop;
+    //private GameObject itemDrop;
     
 
     public void AddItem(string nomItem)
@@ -61,7 +61,7 @@ public class Player_Inventory : MonoBehaviour
         
     }
 
-    public void DropItem(string nomItem)
+    /*public void DropItem(string nomItem)
     {
         if (!HasItem(nomItem))
         {
@@ -77,7 +77,7 @@ public class Player_Inventory : MonoBehaviour
             Debug.Log($"L'objet {nomItem} a été lâché devant le joueur.");
         }
         else Debug.LogError($"Aucun objet n'a pu être laché");
-    }
+    }*/
 
     public void ShowInventory()
     {
@@ -96,7 +96,7 @@ public class Player_Inventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

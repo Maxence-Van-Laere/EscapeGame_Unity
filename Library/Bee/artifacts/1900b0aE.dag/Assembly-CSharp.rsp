@@ -355,6 +355,7 @@
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/MouseCamLook.cs"
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/PlayerMovement.cs"
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/ScreenshotMaker.cs"
+"Assets/Script/Activate_Lever.cs"
 "Assets/Script/Billboard.cs"
 "Assets/Script/Change_Scene.cs"
 "Assets/Script/DoorAnimationController.cs"

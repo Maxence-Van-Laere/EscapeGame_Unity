@@ -7,9 +7,6 @@ public class Open_Door : MonoBehaviour
 {
     private Player_Inventory inventaire;
     [SerializeField] private string clefRequise; //Clef nécessaire pour ouvrir cette porte, modulable pour chaque porte dans l'Inspector du GameObject 
-    private bool estOuverte = false;
-    [SerializeField] private float rotationAngle = 77.878f;
-    private float rotationSpeed = 2f;
     private Animator doorAnimator;
     [SerializeField] private string nomTriggerOpen;
 
@@ -61,7 +58,7 @@ public class Open_Door : MonoBehaviour
 
     }
 
-    private void doorAnimation()
+    /*private void doorAnimation()
     {
         transform.Rotate(0, rotationSpeed, 0);
     }
@@ -82,5 +79,5 @@ public class Open_Door : MonoBehaviour
 
         // Assurez-vous que la porte termine exactement à l'angle souhaité
         transform.rotation = targetRotation;
-    }
+    }*/
 }
