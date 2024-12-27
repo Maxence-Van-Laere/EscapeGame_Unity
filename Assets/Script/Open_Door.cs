@@ -9,10 +9,13 @@ public class Open_Door : MonoBehaviour
     [SerializeField] private string clefRequise; //Clef nécessaire pour ouvrir cette porte, modulable pour chaque porte dans l'Inspector du GameObject 
     private Animator doorAnimator;
     [SerializeField] private string nomTriggerOpen;
+    [SerializeField] private AudioClip openSound; // Le clip audio du son d'ouverture de la porte
+    private AudioSource audioSource;
 
     void Start()
     {
         doorAnimator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
         GameObject joueur = GameObject.FindWithTag("Player");
         if (joueur != null)
         {
@@ -50,12 +53,21 @@ public class Open_Door : MonoBehaviour
                 {
                     doorAnimator.SetTrigger(nomTriggerOpen);
                     inventaire.RemoveItem(clefRequise);
+                    PlayOpenSound();
                 }
             }
             else Debug.Log("Le joueur ne possède pas la clef requise");
             
         }
 
+    }
+
+    private void PlayOpenSound()
+    {
+        if (audioSource != null && openSound != null)
+        {
+            audioSource.PlayOneShot(openSound);
+        }
     }
 
     /*private void doorAnimation()

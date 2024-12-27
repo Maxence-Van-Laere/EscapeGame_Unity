@@ -359,6 +359,7 @@
 "Assets/Script/Billboard.cs"
 "Assets/Script/Change_Scene.cs"
 "Assets/Script/DoorAnimationController.cs"
+"Assets/Script/FootstepSound.cs"
 "Assets/Script/Key_Pickup.cs"
 "Assets/Script/Open_Door.cs"
 "Assets/Script/Player_Inventory.cs"
