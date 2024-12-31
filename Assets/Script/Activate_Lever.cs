@@ -18,21 +18,16 @@ public class Activate_Lever : MonoBehaviour
     [SerializeField] private KeyCode actionKey = KeyCode.E;
     [SerializeField] private float activeHerseDelai;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource herseAudioSource; // AudioSource pour jouer le son d'ouverture
+    [SerializeField] private AudioClip herseOpenClip;      // Clip audio de l'ouverture de la herse
+
     [Header("UI Elements")]
     [SerializeField] private TMP_Text messageUI;
     [SerializeField] private string messageInteract; // Message interactif
 
     private bool joueurProche = false;
     private bool levierActive = false;
-
-
-    void Start()
-    {
-        
-        /*levierAnimator = GetComponent<Animator>();
-        herseAnimator = GetComponent<Animator>();
-        GameObject joueur = GameObject.FindWithTag("Player");*/
-    }
 
     void Update()
     {
@@ -45,7 +40,6 @@ public class Activate_Lever : MonoBehaviour
     private void ActiveLevier()
     {
         levierActive = !levierActive;
-
 
         if (levierAnimator != null)
         {
@@ -68,10 +62,26 @@ public class Activate_Lever : MonoBehaviour
         {
             herseAnimator.SetTrigger(nomTriggerOpenHerse);
             Debug.Log("Herse ouverte !");
+
+            // Lecture du son d'ouverture
+            PlayHerseOpenSound();
         }
         else
         {
             Debug.LogError("Aucun Animator assigné à la herse détecté");
+        }
+    }
+
+    private void PlayHerseOpenSound()
+    {
+        if (herseAudioSource != null && herseOpenClip != null)
+        {
+            herseAudioSource.clip = herseOpenClip;
+            herseAudioSource.Play();
+        }
+        else
+        {
+            Debug.LogWarning("AudioSource ou AudioClip pour la herse non assigné.");
         }
     }
 
@@ -83,12 +93,11 @@ public class Activate_Lever : MonoBehaviour
             ShowMessage(messageInteract);
             Debug.Log("Le joueur entre dans la zone du levier");
         }
-
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player")) 
+        if (other.CompareTag("Player"))
         {
             joueurProche = false;
             Debug.Log("Le joueur a quitté la zone du levier.");
