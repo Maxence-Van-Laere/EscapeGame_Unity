@@ -6,6 +6,13 @@ TagManager:
   tags:
   - Key
   - Levier
+  - Pomme de terre
+  - Pain
+  - Carotte
+  - "Ep\xE9e"
+  - Marmite
+  - Viande
+  - Torche
   layers:
   - Default
   - TransparentFX

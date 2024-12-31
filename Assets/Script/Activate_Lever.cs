@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Activate_Lever : MonoBehaviour
@@ -16,6 +17,10 @@ public class Activate_Lever : MonoBehaviour
     [Header("Paramètres")]
     [SerializeField] private KeyCode actionKey = KeyCode.E;
     [SerializeField] private float activeHerseDelai;
+
+    [Header("UI Elements")]
+    [SerializeField] private TMP_Text messageUI;
+    [SerializeField] private string messageInteract; // Message interactif
 
     private bool joueurProche = false;
     private bool levierActive = false;
@@ -46,6 +51,7 @@ public class Activate_Lever : MonoBehaviour
         {
             levierAnimator.SetTrigger(nomTriggerLevier);
             Debug.Log("Levier activé");
+            ShowMessage("");
         }
         else
         {
@@ -74,6 +80,7 @@ public class Activate_Lever : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             joueurProche = true;
+            ShowMessage(messageInteract);
             Debug.Log("Le joueur entre dans la zone du levier");
         }
 
@@ -85,6 +92,15 @@ public class Activate_Lever : MonoBehaviour
         {
             joueurProche = false;
             Debug.Log("Le joueur a quitté la zone du levier.");
+            ShowMessage("");
+        }
+    }
+
+    private void ShowMessage(string message)
+    {
+        if (messageUI != null)
+        {
+            messageUI.text = message;
         }
     }
 }

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|c:\\users\\maxen\\documents\\projet\\turpin_marcelino_vanlaere_project\\assets\\script\\activate_lever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\activate_lever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\breakobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\breakobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\key_pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\key_pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\couverclecoffre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\couverclecoffre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\open_door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\open_door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|c:\\users\\maxen\\documents\\projet\\turpin_marcelino_vanlaere_project\\assets\\script\\objectopen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\objectopen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\player_inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player_inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,33 +30,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Activate_Lever.cs",
-              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Activate_Lever.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Activate_Lever.cs",
-              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Activate_Lever.cs*",
-              "RelativeToolTip": "Assets\\Script\\Activate_Lever.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ObjectOpen.cs",
+              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\ObjectOpen.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ObjectOpen.cs",
+              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\ObjectOpen.cs",
+              "RelativeToolTip": "Assets\\Script\\ObjectOpen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T19:16:12.02Z",
+              "WhenOpened": "2024-12-30T23:03:08.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Open_Door.cs",
-              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Open_Door.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Open_Door.cs",
-              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Open_Door.cs",
-              "RelativeToolTip": "Assets\\Script\\Open_Door.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CouvercleCoffre.cs",
+              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\CouvercleCoffre.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CouvercleCoffre.cs",
+              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\CouvercleCoffre.cs",
+              "RelativeToolTip": "Assets\\Script\\CouvercleCoffre.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T19:22:10.176Z",
+              "WhenOpened": "2024-12-29T21:34:08.607Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BreakObject.cs",
+              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\BreakObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\BreakObject.cs",
+              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\BreakObject.cs",
+              "RelativeToolTip": "Assets\\Script\\BreakObject.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T23:00:01.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T12:52:23.029Z"
             },
             {
               "$type": "Document",
@@ -62,23 +91,9 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Player_Inventory.cs",
               "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Player_Inventory.cs",
               "RelativeToolTip": "Assets\\Script\\Player_Inventory.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAIAwwFgAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T10:12:36.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Key_Pickup.cs",
-              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Key_Pickup.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Key_Pickup.cs",
-              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Key_Pickup.cs",
-              "RelativeToolTip": "Assets\\Script\\Key_Pickup.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T10:12:33.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T10:12:36.306Z"
             }
           ]
         }
