@@ -90,8 +90,11 @@ public class Activate_Lever : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             joueurProche = true;
-            ShowMessage(messageInteract);
-            Debug.Log("Le joueur entre dans la zone du levier");
+            if(levierActive)
+            {
+                ShowMessage(messageInteract);
+                Debug.Log("Le joueur entre dans la zone du levier");
+            }
         }
     }
 

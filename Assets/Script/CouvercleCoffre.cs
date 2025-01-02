@@ -8,7 +8,8 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] public GameObject clefDansCoffre; 
     [SerializeField] private Animator coffreAnimator; 
     [SerializeField] private string triggerOuvertureCoffre;
-  
+
+
 
     private bool aEteOuvert = false;
 

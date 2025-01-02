@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|c:\\users\\maxen\\documents\\projet\\turpin_marcelino_vanlaere_project\\assets\\script\\torche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\torche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\object_pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\object_pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\objectopen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\objectopen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\breakobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\breakobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\couverclecoffre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|c:\\users\\maxen\\documents\\projet\\turpin_marcelino_vanlaere_project\\assets\\script\\objectopen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\objectopen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\player_inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player_inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\assets\\script\\activate_lever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B05A4A-50CF-B782-2F88-3878A4F56B50}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\activate_lever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +34,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Object_Pickup.cs",
+              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Object_Pickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Object_Pickup.cs",
+              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Object_Pickup.cs",
+              "RelativeToolTip": "Assets\\Script\\Object_Pickup.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:34:41.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Torche.cs",
+              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Torche.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Torche.cs",
+              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Torche.cs",
+              "RelativeToolTip": "Assets\\Script\\Torche.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:32:35.405Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -40,27 +69,37 @@
               "RelativeDocumentMoniker": "Assets\\Script\\ObjectOpen.cs",
               "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\ObjectOpen.cs",
               "RelativeToolTip": "Assets\\Script\\ObjectOpen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T23:03:08.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T23:03:08.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CouvercleCoffre.cs",
               "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\CouvercleCoffre.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CouvercleCoffre.cs",
               "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\CouvercleCoffre.cs",
               "RelativeToolTip": "Assets\\Script\\CouvercleCoffre.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T21:34:08.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T17:14:31.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "Activate_Lever.cs",
+              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Activate_Lever.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Activate_Lever.cs",
+              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Activate_Lever.cs",
+              "RelativeToolTip": "Assets\\Script\\Activate_Lever.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:18:00.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BreakObject.cs",
               "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\BreakObject.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\BreakObject.cs",
@@ -68,32 +107,7 @@
               "RelativeToolTip": "Assets\\Script\\BreakObject.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T23:00:01.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Script\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T12:52:23.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player_Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Player_Inventory.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Player_Inventory.cs",
-              "ToolTip": "C:\\Users\\maxen\\Documents\\Projet\\Turpin_Marcelino_VanLaere_Project\\Assets\\Script\\Player_Inventory.cs",
-              "RelativeToolTip": "Assets\\Script\\Player_Inventory.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T10:12:36.306Z"
+              "WhenOpened": "2024-12-30T23:00:01.004Z"
             }
           ]
         }

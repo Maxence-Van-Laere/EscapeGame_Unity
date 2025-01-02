@@ -29,15 +29,26 @@ public class Object_Pickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(objetProche != null && Input.GetKeyDown(KeyCode.E))
+        if (objetProche != null && Input.GetKeyDown(KeyCode.E))
         {
-            inventaire.AddItem(objetProche.name);
-            Destroy(objetProche);
+            if (objetProche.CompareTag("Torche"))
+            {
+                // Allume ou éteint la torche
+                Torche torchScript = objetProche.GetComponent<Torche>();
+                if (torchScript != null)
+                {
+                    torchScript.Toggle();
+                }
+            }
+            else
+            {
+                inventaire.AddItem(objetProche.name);
+                Destroy(objetProche);
 
+            }
             objetProche = null;
             ShowMessage("");
         }
-
     }
 
     private void OnTriggerEnter(Collider other)
@@ -71,6 +82,22 @@ public class Object_Pickup : MonoBehaviour
         {
             ShowMessage("[E] pour ramasser la viande");
             objetProche = other.gameObject;
+        }
+        else if (other.CompareTag("Torche"))
+        {
+            /*Torche torch = other.GetComponent<Torche>();
+            if (torch != null)
+            {
+                string message = torch.EstAllume()
+                ? "[E] pour éteindre la torche"
+                : "[E] pour allumer la torche";
+                ShowMessage(message);
+
+                objetProche = other.gameObject;
+            }*/
+            ShowMessage("torche");
+            objetProche = other.gameObject;
+
         }
     }
 

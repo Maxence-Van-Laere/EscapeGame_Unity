@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
     private SceneTransitionWithVideo transitionManager;
+    public GameObject portail;
 
     public int targetSceneIndex; // Indice de la scène à charger
 
@@ -22,6 +23,7 @@ public class SceneChanger : MonoBehaviour
         {
             // Déclenche la transition avec l'indice de la scène
             transitionManager.StartTransition(targetSceneIndex);
+            portail.SetActive(false);
         }
     }
 }
