@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.SceneTemplate;
 using UnityEngine;
 
 public class Activate_Lever : MonoBehaviour
@@ -21,6 +22,7 @@ public class Activate_Lever : MonoBehaviour
     [Header("Audio")]
     [SerializeField] private AudioSource herseAudioSource; // AudioSource pour jouer le son d'ouverture
     [SerializeField] private AudioClip herseOpenClip;      // Clip audio de l'ouverture de la herse
+    public float tpsAttente;
 
     [Header("UI Elements")]
     [SerializeField] private TMP_Text messageUI;
@@ -62,9 +64,6 @@ public class Activate_Lever : MonoBehaviour
         {
             herseAnimator.SetTrigger(nomTriggerOpenHerse);
             Debug.Log("Herse ouverte !");
-
-            // Lecture du son d'ouverture
-            PlayHerseOpenSound();
         }
         else
         {
@@ -90,7 +89,7 @@ public class Activate_Lever : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             joueurProche = true;
-            if(levierActive)
+            if(!levierActive)
             {
                 ShowMessage(messageInteract);
                 Debug.Log("Le joueur entre dans la zone du levier");

@@ -5,7 +5,8 @@ using UnityEngine;
 public class Player_Inventory : MonoBehaviour
 {
     public string[] inventory = new string[10];
-    private int nbrItems = 0;
+    public int nbrItems = 0;
+    public UIInventoryManager uiManager;
     //private GameObject itemDrop;
     
 
@@ -23,6 +24,8 @@ public class Player_Inventory : MonoBehaviour
         }
 
         ShowInventory();
+        uiManager?.UpdateInventoryUI();
+        Debug.Log("Add UI Update Appelé");
     }
 
     public bool HasItem(string nomItem)
@@ -53,6 +56,8 @@ public class Player_Inventory : MonoBehaviour
                 nbrItems--;
                 Debug.Log($"{nomItem} a été retiré de l'inventaire.");
                 ShowInventory();
+                uiManager?.UpdateInventoryUI();
+                Debug.Log("Remove UI update appelé");
                 return;
             }
         }

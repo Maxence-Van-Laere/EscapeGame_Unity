@@ -36,7 +36,7 @@ public class EnigmePorte : MonoBehaviour
         {
             if (torch == null || !torch.EstAllume())
             {
-                Debug.Log($"La torche {torch.name} doit être allumée mais ne l'est pas.");
+                //Debug.Log($"La torche {torch.name} doit être allumée mais ne l'est pas.");
                 return false;
             }
         }
@@ -45,7 +45,7 @@ public class EnigmePorte : MonoBehaviour
         {
             if (torch == null || torch.EstAllume())
             {
-                Debug.Log($"La torche {torch.name} doit être éteinte mais est allumée.");
+                //Debug.Log($"La torche {torch.name} doit être éteinte mais est allumée.");
                 return false;
             }
         }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class InventoryUIManager : MonoBehaviour
 {
     [SerializeField] private ObjectOpen cadenas;
     [SerializeField] public GameObject clefDansCoffre; 
