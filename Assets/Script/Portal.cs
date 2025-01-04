@@ -5,22 +5,28 @@ using UnityEngine;
 
 public class Portal : MonoBehaviour
 {
+    public GameObject objetAActiver;
+    private ObjectOpen objetOuvert;
 
-    [SerializeField] private ObjectOpen objetAdetecter;
-
-
-    // Start is called before the first frame update
     void Start()
     {
-        gameObject.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (objetAdetecter.estOuvert)
+        objetOuvert = GetComponent<ObjectOpen>();
+        if (objetAActiver == null)
         {
-            gameObject.SetActive(true);
+            Debug.Log("L'objet à activer n'est pas assigné");
+        }
+        else
+        {
+            objetAActiver.SetActive(false);
         }
     }
+
+    void Update()
+    {
+        if (objetOuvert.estOuvert)
+        {
+            objetAActiver.SetActive(true);
+        }  
+    }
 }
+

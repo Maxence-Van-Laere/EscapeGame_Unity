@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using TMPro;
-using UnityEditor.VersionControl;
+//using UnityEditor.VersionControl;
 
 public class Object_Pickup : MonoBehaviour
 {
@@ -92,10 +92,10 @@ public class Object_Pickup : MonoBehaviour
                 ? "[E] pour éteindre la torche"
                 : "[E] pour allumer la torche";
                 ShowMessage(message);
-
+            E] pour intéragir avec la torche
                 objetProche = other.gameObject;
             }*/
-            ShowMessage("torche");
+            ShowMessage("[E] pour intéragir avec la torche");
             objetProche = other.gameObject;
 
         }

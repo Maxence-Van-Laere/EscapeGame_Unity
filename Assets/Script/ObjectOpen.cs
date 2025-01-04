@@ -25,7 +25,7 @@ public class ObjectOpen : MonoBehaviour
     [SerializeField] private string messageNoKey = "Vous ne possédez pas la clef requise"; // Message d'erreur
     [SerializeField] private float messageDuration = 2f; // Durée d'affichage des messages
 
-    public bool estOuvert { get; private set; } = false;
+    public bool estOuvert { get; private set; }
 
     private bool isPlayerInRange = false;
 

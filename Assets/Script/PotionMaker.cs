@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UIElements;
+using System.Collections.Generic;
 
 public class PotionMaker : MonoBehaviour
 {
@@ -66,6 +67,8 @@ public class PotionMaker : MonoBehaviour
         }
     }
 
+
+    //NE MET PAS A JOUR LES ITEMS UN A UN
     private void TryAddIngredients()
     {
         if (inventaire != null)
@@ -90,7 +93,6 @@ public class PotionMaker : MonoBehaviour
                 return;
             }
 
-            // Retirer les ingrédients de l'inventaire
             foreach (string ingredient in ingredientsRequis)
             {
                 inventaire.RemoveItem(ingredient);
@@ -100,6 +102,46 @@ public class PotionMaker : MonoBehaviour
             ShowMessage("[F] pour boire le bouillon");
         }
     }
+
+
+    //SUPPRIME LES OBJETS UN A UN MAIS BESOIN DE METTRE TOUS LES INGREDIENTS EN MEME TEMPS POUR QUE CA MARCHE
+    /*private void TryAddIngredients()
+    {
+        if (inventaire != null)
+        {
+            // Initialisation de la liste des ingrédients manquants
+            List<string> ingredientsManquants = new List<string>();
+
+            foreach (string ingredient in ingredientsRequis)
+            {
+                // Vérifie si l'ingrédient est dans l'inventaire
+                if (inventaire.HasItem(ingredient))
+                {
+                    // Retire immédiatement l'ingrédient s'il est disponible
+                    inventaire.RemoveItem(ingredient);
+                    Debug.Log($"{ingredient} ajouté à la marmite et retiré de l'inventaire.");
+                }
+                else
+                {
+                    // Ajoute à la liste des ingrédients manquants
+                    ingredientsManquants.Add(ingredient);
+                }
+            }
+
+            // Si des ingrédients manquent, on affiche un message
+            if (ingredientsManquants.Count > 0)
+            {
+                string message = "Il manque : " + string.Join(", ", ingredientsManquants);
+                ShowMessage(message);
+            }
+            else
+            {
+                // Tous les ingrédients sont ajoutés avec succès
+                marmiteRemplie = true;
+                ShowMessage("[F] pour boire le bouillon");
+            }
+        }
+    }*/
 
     private void DrinkPotion()
     {
